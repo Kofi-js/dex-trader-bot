@@ -1,0 +1,9 @@
+{
+    "name": "dex-trader",
+    "private": true,
+    "workspaces": [
+      "apps/frontend",
+      "apps/backend",
+      "contracts"
+    ]
+  }

@@ -1,0 +1,17 @@
+{
+  "name": "dex-trader-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "node": "hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.5.0",
+    "hardhat": "^2.19.0",
+    "typescript": "^5.3.2"
+  }
+}
